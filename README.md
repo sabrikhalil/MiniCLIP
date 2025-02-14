@@ -16,19 +16,25 @@ MiniCLIP is a minimal contrastive vision-language model prototype designed to al
 - **docs/**: Documentation and design notes.
 
 ## Getting Started
+
 1. Clone the repository.
  ```cmd
     git clone https://github.com/<your-username>/MiniCLIP.git
-    cd MiniCLIP
+    cd MiniCLIP.
+ ```
 2. Install dependencies from `requirements.txt`.
  ```cmd
     pip install -r requirements.txt
+```
 3. Follow the instructions in `docs/design.md` for further details.
  ```cmd
     python data/download_dataset.py
+```
 4. Training :
  ```cmd
     python src/training.py
+```
 5. Evaluation: 
  ```cmd
     python src/evaluate.py
+```
