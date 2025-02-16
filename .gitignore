@@ -21,3 +21,10 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+checkpoints/
+data/cifar10/
+data/coco_captions_test/
+data/coco_captions_train/
+data/coco_captions_validation/
+data/flickr30k_train/
+wandb/
